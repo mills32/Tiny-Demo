@@ -8,14 +8,14 @@ Another demo with a very original name. This time I wanted to see if a text mode
 ![plot](https://raw.githubusercontent.com/mills32/Tiny-Demo/master/tinydemo.png)
 
 I used 40x25 text mode, (tweaked to be 40x30), and changed text cells to 8x8 pixels, (2 colors per cell). It kind of looks like
-ZX Spectrum, color clash included, but this is a full tile/map mode, just like many systems of the era (NES,SNES,MD-Genesis...). 
+ZX Spectrum, color clash included, but this is a full tile/map mode, just like many systems of the era (NES, SNES, MD-Genesis... ). 
 In this mode, VGA helps a lot the cpu, by drawing the entire screen for us, we just have to update the hardware scroll registers
 or change some bytes (tiles) and a lot of stuff is possible, even simulate sprites by updating some tile data.
 
 I tried to make it work on EGA, but I could not make it work on real hardware, only on emulators. Also there are issues that can't
 be solved on EGA, such as the split screen shaking when scrolling.
 
-Music used in this demo is called "Orgasmic Chipper 2". I converted it ro s3m, and edited the instruments in Adlib Tracker II.
+Music used in this demo is called "Orgasmic Chipper 2". I converted it to s3m, and edited the instruments in Adlib Tracker II.
 
 Requirements:
 - CPU 8088 4.77 Mhz
