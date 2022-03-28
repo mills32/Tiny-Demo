@@ -249,7 +249,7 @@ void Set_40x30_TileMap_Mode(){//320x240@60Hz + square cursor
 		//write SEQUENCER regs
 		outport(0x03C4,0x0901);	//Clock rate/2 ; cell = 8 pixels wide
 		outport(0x03C4,0x0003); //select font bank
-		outport(0x03C4,0x0204); //select memory propesties
+		outport(0x03C4,0x0204); //Select VRAM size (0 = 64; 2 = 256;)
 		//write GRAPHICS CONTROLLER regs
 		outport(0x03CE,0x1005);	// Shift Reg. -- Shift Register Interleave Mode
 		outport(0x03CE,0x0E06);	// Select VRAM B8000h-BFFFFh; Chain O/E ON; Text mode ON 
