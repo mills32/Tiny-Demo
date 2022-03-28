@@ -3,7 +3,7 @@ ENG:
 Tiny Demo (VGA Text mode)
 --------------------------------------------
 
-Another demo with a very original name. This time I wanted to see if a text mode could be usefull for demos or games, and it is.
+Another demo with a very original name. This time I wanted to see if a text mode could be useful for demos or games, and it is.
 
 ![plot](https://raw.githubusercontent.com/mills32/Tiny-Demo/master/tinydemo.png)
 
