@@ -15,7 +15,7 @@ or change some bytes (tiles) and a lot of stuff is possible, even simulate sprit
 I tried to make it work on EGA, but I could not make it work on real hardware, only on emulators. Also there are issues that can't
 be solved on EGA, such as the split screen shaking when scrolling.
 
-Music used in this demo is called "Orgasmic Chipper 2". I converted it to s3m, and edited the instruments in Adlib Tracker II.
+Music used in this demo is called "Orgasmic Chipper 2" by Anthrox. I converted it to s3m, and edited the instruments in Adlib Tracker II.
 
 Requirements:
 - CPU 8088 4.77 Mhz
@@ -43,7 +43,7 @@ He intentado hacer que funcione en EGA, pero no conseguí gran cosa en hardware 
 no se pueden solucionar en EGA, como por ejemplo la imposibilidad de dejar estática la parte inferior de la pantalla, si utilizamos
 la función "split screen" a la vez que hacemos scroll.
 
-La música es "orgasmic chipper 2", la convertí a s3m y la edite en Adlib Tracker II para usar instrumentos OPL2 en lugar de samples.
+La música es "orgasmic chipper 2" de Anthrox, la convertí a s3m y la edite en Adlib Tracker II para usar instrumentos OPL2 en lugar de samples.
 
 
 Requisitos:
