@@ -564,8 +564,8 @@ void ScrollTextMap_EGA(int x, int y){
 	//The smooth panning magic happens here
 	panning = x&7;
 	asm mov dx,003c0h
-	asm mov ax,033h
-	asm out dx,ax
+	asm mov al,0x33		//0x20 | 0x13 (palette normal operation | Pel panning reg)	
+	asm out dx,al
 	asm mov al,panning
 	asm out dx,al
 
@@ -607,8 +607,8 @@ void ScrollTextMap_VGA(int x, int y){
 	if (static_screen) panning = 8;
 	else panning = text_mode_panning[(x&7)+1]; //avoid value "8" when scrolling, it causes choppy scroll on real VGA
 	asm mov dx,003c0h
-	asm mov ax,033h
-	asm out dx,ax
+	asm mov al,0x33		//0x20 | 0x13 (palette normal operation | Pel panning reg)	
+	asm out dx,al
 	asm mov al,panning
 	asm out dx,al
 	
@@ -656,8 +656,8 @@ void ScrollTextMap_SVGA(int x, int y){
 	//The smooth panning magic happens here
 	panning = text_mode_panning[x&7];
 	asm mov dx,003c0h
-	asm mov ax,033h
-	asm out dx,ax
+	asm mov al,0x33		//0x20 | 0x13 (palette normal operation | Pel panning reg)	
+	asm out dx,al
 	asm mov al,panning
 	asm out dx,al
 	asm STI
