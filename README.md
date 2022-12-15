@@ -34,7 +34,7 @@ si puede.
 ![plot](https://raw.githubusercontent.com/mills32/Tiny-Demo/master/tinydemo.png)
 
 He usado el modo texto 40x25, (modificado para que sea 40x30), cambiando el tamaño de las celdas a 8x8 (dos colores por celda), y se 
-parece un poco al ZX Spectrum, con color clash incluido, aunque se trata mas bien de un modo exáctamente igual al de otros sistemas
+parece un poco al ZX Spectrum, con color clash incluido, aunque se trata mas bien de un modo "mapa compuesto por celdas", exáctamente igual al de otros sistemas
 de la epoca (NES, SNES, MD-Genesis...). En este modo la tarjeta VGA ayuda bastante a la CPU, basicamente haciendo casi todo por 
 nosotros, sólamente tenemos que preocuparnos de mover los registros de scroll, o modificar unos cuantos bytes (tiles) para conseguir
 cosas llamativas.
